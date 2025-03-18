@@ -1,3 +1,5 @@
+<%@page import="DBTKG.Util"%>
+<%@page import="java.sql.*"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -17,12 +19,29 @@
 <body>
 	<script type="text/javascript" src="check.js"></script>
 	<jsp:include page="header.jsp"></jsp:include>
-	<jsp:include page="nav.jsp"></jsp:include>
+	<jsp:include page="nav.jsp"></jsp:include> 
 	<form name="frm" style="display: flex; align-items: center; justify-content: center; text-align: center">
 		<table style="border: 1px solid black">
 			<tr>
 				<td>회원 번호(자동발생)</td>
-				<td><input type="text" name="custno"  value="something" readonly/></td>
+				<%
+					request.setCharacterEncoding("UTF-8");
+					Connection conn = null;
+					Statement stmt = null;
+					String custno = "";
+					try {
+						conn = Util.getConnection();
+						stmt = conn.createStatement();
+						
+						String sql = "SELECT MAX(custno)+1 custno FROM member_tbl_02";
+						ResultSet rs = stmt.executeQuery(sql);
+						rs.next();
+						custno = rs.getString("custno");
+					} catch (Exception e) {
+						e.printStackTrace();
+					}	
+				%>
+				<td><input type="text" name="custno"  value="<%=custno%>" readonly/></td>
 			</tr>
 			<tr>
 				<td>회원 성명</td>

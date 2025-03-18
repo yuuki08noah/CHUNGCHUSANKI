@@ -44,3 +44,7 @@
  function success(){
 	 alert("회원등록이 완료되었습니다.")
  }
+ 
+ function modify() {
+	 alert("회원정보수정이 완료되었습니다")
+ }
