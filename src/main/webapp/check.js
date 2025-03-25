@@ -48,3 +48,8 @@
  function modify() {
 	 alert("회원정보수정이 완료되었습니다")
  }
+ 
+ function search() {
+	 alert("ASDF")
+	 window.location = 'list.jsp';
+ }

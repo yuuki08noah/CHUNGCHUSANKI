@@ -1,3 +1,4 @@
+<%@page import="java.text.SimpleDateFormat"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="DBTKG.Util"%>
 <%@page import="java.sql.Statement"%>
@@ -8,7 +9,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Moidfy</title>
+<title>Modify</title>
 <style>
 section {
 	width: 100%;
@@ -25,7 +26,7 @@ section {
 	<jsp:include page="nav.jsp" />
 	<section>
 		<h2 style="align-items:center; text-align: center;">회원목록조회/수정</h2>
-			<form name="frm" style="display: flex; align-items: center; justify-content: center; text-align: center">
+		<form name="frm" method="post" action="action.jsp" style="display: flex; align-items: center; justify-content: center; text-align: center">
 		<input type="hidden" name="mode" value="modify"/>
 		<table style="border: 1px solid black">
 			<tr>
@@ -43,6 +44,8 @@ section {
 						
 						ResultSet rs = stmt.executeQuery(sql);
 						rs.next();
+						SimpleDateFormat transFormat = new SimpleDateFormat("yyyy-MM-dd");
+						String joinDateStr = transFormat.format(rs.getDate("joindate"));
 				%>
 				<td> <input type="text" name="custno"  value="<%=request.getParameter("mod_custno")%>" readonly/></td>
 			</tr>
@@ -60,7 +63,7 @@ section {
 			</tr>
 			<tr>
 				<td>가입일자</td>
-				<td><input type="text" name="joindate" value="<%=rs.getDate("joindate")%>" readonly/></td>
+				<td><input type="text" name="joindate" value="<%=joinDateStr%>" readonly/></td>
 			</tr>
 			<tr>
 				<td>고객등급(A: VIP, B: 일반, C: 직원)</td>
@@ -71,7 +74,7 @@ section {
 				<td><input type="text" name="city" value="<%=rs.getString("city")%>"/></td>
 			</tr>
 			<tr>
-				<td colspan="2"><input type="submit" value="등록" name="register" onclick="return modify()"/><input type="submit" value="조회" name="search" /></td>
+				<td colspan="2"><input type="submit" value="등록" name="register" onclick="return modify()"/><input type="button" value="조회" name="search" onclick="return search()"/></td>
 			</tr>
 			<%} catch (Exception e) {
 				e.printStackTrace();
@@ -81,6 +84,7 @@ section {
 	</form>
 	</section>
 	<jsp:include page="footer.jsp" />
-
+	<script src="check.js">
+	</script>
 </body>
 </html>

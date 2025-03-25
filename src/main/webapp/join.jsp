@@ -20,7 +20,8 @@
 	<script type="text/javascript" src="check.js"></script>
 	<jsp:include page="header.jsp"></jsp:include>
 	<jsp:include page="nav.jsp"></jsp:include> 
-	<form name="frm" style="display: flex; align-items: center; justify-content: center; text-align: center">
+	<form method="post" name="frm" action="action.jsp" style="display: flex; align-items: center; justify-content: center; text-align: center">
+		<input type="hidden" name="mode" value="insert"/>
 		<table style="border: 1px solid black">
 			<tr>
 				<td>회원 번호(자동발생)</td>
