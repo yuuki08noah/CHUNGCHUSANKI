@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>List</title>
+</head>
+<body>
+	<jsp:include page="header.jsp"/>
+	<section
+		style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+		<h2>교과목 목록</h2>
+		<form style="display: flex; justify-content: center; align-items: center; flex-direction: column">
+		<table border="1">
+			<tr>
+				<td>과목코드</td>
+				<td>과목명</td>
+				<td>학점</td>
+				<td>담당강사</td>
+				<td>요일</td>
+				<td>시작시간</td>
+				<td>종료시간</td>
+				<td>삭제</td>
+			</tr>
+			<% %>
+		</table>
+		</form>
+	</section>
+	<jsp:include page="footer.jsp"/>
+</body>
+</html>

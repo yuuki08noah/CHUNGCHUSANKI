@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body style="margin: 0 0; top: 0;">
+	<header style="height: 50px; width: 100%; color: white; background-color: blue; text-align: center;">
+		<h2>수강신청 도우미 사이트</h2>
+	</header>
+	<nav style="height: 30px; width: 100%; color: white; background-color: lightblue; display: flex; gap: 20px; margin-left: 40px;">
+		<a href="#">교과목목록 조회/수정</a>
+		<a href="#">교과목 추가</a>
+		<a href="#">홈으로</a>
+	</nav>
+</body>
+</html>

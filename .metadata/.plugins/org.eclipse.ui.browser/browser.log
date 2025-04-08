@@ -1,0 +1,59 @@
+
+3월 18, 2025 16:55:01.37 NEW SESSION
+3월 18, 2025 16:55:01.38 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 18, 2025 17:06:10.08 [5880:13824:0318/170610.086:ERROR:device_event_log_impl.cc(202)] [17:06:10.087] Bluetooth: bluetooth_adapter_winrt.cc:1054 Getting Default Adapter failed.
+3월 18, 2025 18:03:04.20 [5880:13824:0318/180304.201:ERROR:device_event_log_impl.cc(202)] [18:03:04.202] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+3월 18, 2025 18:05:00.43 [5880:13824:0318/180500.439:ERROR:gpu_process_host.cc(953)] GPU process exited unexpectedly: exit_code=34
+
+3월 25, 2025 16:38:02.29 NEW SESSION
+3월 25, 2025 16:38:02.39 Created TensorFlow Lite XNNPACK delegate for CPU.
+3월 25, 2025 16:45:42.84 [10584:1504:0325/164542.841:ERROR:device_event_log_impl.cc(202)] [16:45:42.841] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+3월 25, 2025 16:52:36.26 [10584:1504:0325/165236.267:ERROR:device_event_log_impl.cc(202)] [16:52:36.267] Bluetooth: bluetooth_adapter_winrt.cc:1054 Getting Default Adapter failed.
+
+3월 25, 2025 20:35:33.32 NEW SESSION
+3월 25, 2025 20:35:33.33 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+4월 01, 2025 16:44:12.99 NEW SESSION
+4월 01, 2025 16:44:13.00 Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 01, 2025 17:07:34.33 Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 01, 2025 17:11:00.64 [8812:4796:0401/171100.642:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:11:02.51 [8812:4796:0401/171102.512:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:29.52 [8812:4796:0401/171529.526:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:30.31 [8812:4796:0401/171530.312:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:30.40 [8812:4796:0401/171530.407:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:30.89 [8812:4796:0401/171530.892:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:31.46 [8812:4796:0401/171531.463:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:33.22 [8812:4796:0401/171533.224:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:33.56 [8812:4796:0401/171533.569:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:33.98 [8812:4796:0401/171533.988:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:34.14 [8812:4796:0401/171534.145:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:34.44 [8812:4796:0401/171534.445:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:34.55 [8812:4796:0401/171534.550:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Document already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:34.78 [8812:4796:0401/171534.780:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:34.86 [8812:4796:0401/171534.868:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:35.26 [8812:4796:0401/171535.266:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:35.50 [8812:4796:0401/171535.502:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:35.63 [8812:4796:0401/171535.634:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:35.80 [8812:4796:0401/171535.805:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:35.86 [8812:4796:0401/171535.869:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:35.99 [8812:4796:0401/171535.993:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:36.29 [8812:4796:0401/171536.299:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:36.39 [8812:4796:0401/171536.393:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:36.45 [8812:4796:0401/171536.456:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:36.75 [8812:4796:0401/171536.756:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:36.88 [8812:4796:0401/171536.885:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:37.11 [8812:4796:0401/171537.115:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:15:37.31 [8812:4796:0401/171537.317:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Reload was discarded because the page already navigated"}", source: devtools://devtools/bundled/core/protocol_client/protocol_client.js (1)
+4월 01, 2025 17:30:43.48 [8812:4796:0401/173043.488:ERROR:device_event_log_impl.cc(202)] [17:30:43.488] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 01, 2025 17:31:34.91 [8812:4796:0401/173134.911:ERROR:gpu_process_host.cc(953)] GPU process exited unexpectedly: exit_code=34
+4월 01, 2025 18:56:01.40 Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 01, 2025 19:43:43.23 Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 01, 2025 20:36:52.95 [1540:10880:0401/203652.955:ERROR:new_tab_page_handler.cc(1341)] NewTabPage loaded into a non-browser-tab context
+4월 01, 2025 20:38:16.11 [1540:10880:0401/203816.113:ERROR:new_tab_page_handler.cc(1341)] NewTabPage loaded into a non-browser-tab context
+
+4월 08, 2025 16:38:12.66 NEW SESSION
+4월 08, 2025 16:38:12.66 Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 08, 2025 16:39:13.16 Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 08, 2025 16:43:03.21 [5624:12044:0408/164303.211:ERROR:device_event_log_impl.cc(202)] [16:43:03.211] Bluetooth: bluetooth_adapter_winrt.cc:1054 Getting Default Adapter failed.
+4월 08, 2025 17:43:51.59 [5624:12044:0408/174351.590:ERROR:device_event_log_impl.cc(202)] [17:43:51.591] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 08, 2025 17:48:58.04 [5624:12044:0408/174858.043:ERROR:gpu_process_host.cc(954)] GPU process exited unexpectedly: exit_code=34

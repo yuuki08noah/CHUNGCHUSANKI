@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Index</title>
+</head>
+<body>
+	<jsp:include page="header.jsp"/>
+	<section>
+		<div style="text-align: center;">
+			<h2>수강신청 관리 프로그램</h2>
+		</div>
+		
+	</section>
+	<jsp:include page="footer.jsp"/>
+</body>
+</html>
