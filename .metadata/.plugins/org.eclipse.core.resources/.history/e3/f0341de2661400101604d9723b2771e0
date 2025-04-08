@@ -1,0 +1,71 @@
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert</title>
+<style>
+</style>
+</head>
+<body>
+	<jsp:include page="header.jsp" />
+	<section
+		style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+		<h2>교과목 추가</h2>
+		<form method="post" name="frm" action="action.jsp" style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
+			<input type="hidden" name="mode" value="insert">
+			<table border="1">
+				<tr>
+					<td>과목코드</td>
+					<td><input type="text" name="id" style="width: 100%"/></td>
+				</tr>
+				<tr>
+					<td>과목명</td>
+					<td><input type="text" name="name" style="width: 100%"/></td>
+				</tr>
+				<tr>
+					<td>학점</td>
+					<td><input type="text" name="credit" style="width: 100%"/></td>
+				</tr>
+				<tr>
+					<td>담당강사</td>
+					<td><select name="lecturer">
+							<option value="1">김교수</option>
+							<option value="2">이교수</option>
+							<option value="3">박교수</option>
+							<option value="4">우교수</option>
+							<option value="5">최교수</option>
+							<option value="6">임교수</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td>요일</td>
+					<td><input type="radio" name="week" value=1 /> <label>월</label>
+						<input type="radio" name="week" value=2/> <label>화</label> 
+						<input type="radio" name="week" value=3/> <label>수</label> 
+						<input type="radio" name="week" value=4/> <label>목</label> 
+						<input type="radio" name="week" value=5/> <label>금</label></td>
+				</tr>
+				<tr>
+					<td>시작 시간</td>
+					<td><input type="text" name="start_hour" style="width: 100%"/></td>
+				</tr>
+				<tr>
+					<td>종료 시간</td>
+					<td><input type="text" name="end_hour" style="width: 100%"/></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="margin: auto; text-align: center;">
+						<button onclick="addCheck()" type="button">수정</button>
+						<button onclick="search()" type="button">취소</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</section>
+	<jsp:include page="footer.jsp" />
+	<script src="insert.js"></script>
+</body>
+</html>

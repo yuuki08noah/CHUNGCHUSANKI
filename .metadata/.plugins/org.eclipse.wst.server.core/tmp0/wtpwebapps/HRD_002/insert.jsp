@@ -15,6 +15,7 @@
 		style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
 		<h2>교과목 추가</h2>
 		<form method="post" name="frm" action="action.jsp" style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
+			<input type="hidden" name="mode" value="insert">
 			<table border="1">
 				<tr>
 					<td>과목코드</td>
@@ -42,10 +43,10 @@
 				<tr>
 					<td>요일</td>
 					<td><input type="radio" name="week" value=1 /> <label>월</label>
-						<input type="radio" name="week" value=2/> <label>화</label> 
-						<input type="radio" name="week" value=3/> <label>수</label> 
-						<input type="radio" name="week" value=4/> <label>목</label> 
-						<input type="radio" name="week" value=5/> <label>금</label></td>
+						<input type="radio" name="week" value=2 /> <label>화</label> 
+						<input type="radio" name="week" value=3 /> <label>수</label> 
+						<input type="radio" name="week" value=4 /> <label>목</label> 
+						<input type="radio" name="week" value=5 /> <label>금</label></td>
 				</tr>
 				<tr>
 					<td>시작 시간</td>

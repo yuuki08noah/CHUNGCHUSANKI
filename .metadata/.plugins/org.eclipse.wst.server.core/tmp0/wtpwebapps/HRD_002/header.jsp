@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Header</title>
+<script src="insert.js"></script>
 </head>
 <body style="margin: 0 0; padding: 0 0;">
 	<div style="display: flex; justify-content: center; align-items: center; background-color: blue; width: 100%; height: 50px; color: white;"><h1>수강신청 도우미 사이트</h1></div>

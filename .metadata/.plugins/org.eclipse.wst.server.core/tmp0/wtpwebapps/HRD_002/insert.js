@@ -1,6 +1,7 @@
 /**
  * 
  */
+
 function search() {
 	window.location.href="list.jsp"
 }

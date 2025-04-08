@@ -15,6 +15,7 @@
 		style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
 		<h2>교과목 수정</h2>
 		<form method="post" name="frm" action="action.jsp" style="display: flex; justify-content: center; align-items: center; flex-direction: row;">
+			<input type="hidden" name="mode" value="modify">
 			<%
 			request.setCharacterEncoding("UTF-8");
 			String id = request.getParameter("id");
@@ -79,15 +80,16 @@
 				</tr>
 				<tr>
 					<td colspan="2" style="margin: auto; text-align: center;">
-						<button onclick="modify()" type="button" value="수정"></button>
-						<button onclick="res()" type="button" value="취소"></button>
+						<button onclick="modify()" type="button" value="수정">수정</button>
+						<button onclick="res()" type="button" value="취소">취소</button>
 					</td>
 				</tr>
 			</table>
 			<%
-						} catch(Exception e) {
+			} catch(Exception e) {
 				e.printStackTrace();
-			}%>
+			}
+			%>
 		</form>
 	</section>
 	<jsp:include page="footer.jsp" />
