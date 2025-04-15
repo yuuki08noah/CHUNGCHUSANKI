@@ -61,3 +61,10 @@
 
 4월 08, 2025 19:51:41.13 NEW SESSION
 4월 08, 2025 19:51:41.14 Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 08, 2025 20:03:53.32 [13924:11820:0408/200353.326:ERROR:new_tab_page_handler.cc(1345)] NewTabPage loaded into a non-browser-tab context
+4월 08, 2025 20:04:26.39 [13924:11820:0408/200426.390:ERROR:new_tab_page_handler.cc(1345)] NewTabPage loaded into a non-browser-tab context
+4월 08, 2025 20:30:02.25 [13924:11820:0408/203002.251:ERROR:interface_endpoint_client.cc(725)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+4월 15, 2025 17:02:10.88 NEW SESSION
+4월 15, 2025 17:02:10.89 Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 15, 2025 17:30:04.33 [8128:10868:0415/173004.336:ERROR:device_event_log_impl.cc(202)] [17:30:04.336] Bluetooth: bluetooth_adapter_winrt.cc:1054 Getting Default Adapter failed.
