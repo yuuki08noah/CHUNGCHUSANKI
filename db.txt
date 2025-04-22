@@ -1,0 +1,7 @@
+select h.vaccinate_no, h.people_id, p.people_name, v.vaccine_code, v.vaccines, v.vaccine_recommendation, h.vaccinate_date, h.vaccinate_round, h.vaccinate_result, a.institutional_name 
+from tbl_vaccination h join tbl_vaccine v on h.vaccinate_code = v.vaccine_code join tbl_people p on p.people_id = h.people_id join tbl_institutional a on a.visit_agency = h.visit_agency
+order by h.vaccinate_no;
+
+select * from tbl_vaccine;
+
+select v.vaccinate_code, k.infectious_disease, k.vaccines, count(v.vaccinate_code) from tbl_vaccination v join tbl_vaccine k on v.vaccinate_code = k.vaccine_code where v.vaccinate_result = 'N' group by v.vaccinate_code, k.infectious_disease, k.vaccines order by v.vaccinate_code;
